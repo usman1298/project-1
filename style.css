@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(226, 226, 99);
+    /* width: 100vh; */
+}
+.img{
+    width: 100%;
+    position: relative;
+    margin-left: 20%;
+    border-color: blue;
+    margin-top: 10px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.container{
+    width: 148vh;
+    height: 110vh;
+    background-color: rgb(249, 249, 199);
+    position: relative;
+    margin-left: 270px;  
+}
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container ul li {
+    list-style: none;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.nav{
+    display: inline-block;
+    width: 140vh;
+    background-color: rgb(240, 240, 251);
+    padding: 15PX;
+    border:1px solid rgb(191, 191, 244);
+    padding: 17px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+.main{
+    background-color: rgb(209, 240, 51);
+    margin-left: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+.aside ul{
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.aside ul li{
+    padding: 3px;
+}
+.heading{
+    background-color: rgb(209, 240, 51);
+    margin-left: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.block p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.block .paragraph{
+    margin-left: 10px;
+    display: inline-block;
+}
+.content h1{
+    margin-left: 260px;
+    position: relative;
+    margin-top: -440px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 1;
+}
+.content p{
+    margin-left: 29%;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.subs h1{
+    margin-left: 260px;
+    font-weight: 10;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.subs p{
+    margin-left: 260px;
+}
+.btn{
+    margin-left: 260px;
+    margin-top: 20px;
+    background-color: rgb(168, 224, 46);
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    border: 1px solid rgb(213, 213, 249);
+}
+.service h1{
+    margin-left: 550px;
+    position: relative;
+    margin-top: -230px;
+    font-size: 25px;
+    font-weight: 1;
+    font-family: sans-serif;
+}
+.service p{
+    margin-left: 550px;
+    /* margin-right: 40px;
+    margin-top: 10px; */
+}
+.btn1{
+    margin-left: 550px;
+    margin-top: 20px;
+    background-color: rgb(168, 224, 46);
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 2px;
+    border: 1px solid rgb(213, 213, 249); 
+}
+.foot{
+    background-color: rgb(209, 240, 51);
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    width: 140vh;
+    margin-left: 15px;
+}
